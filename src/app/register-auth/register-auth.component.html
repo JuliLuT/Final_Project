@@ -1,0 +1,15 @@
+<div class="sign-auth">
+    <div class="sign-in">
+        <h1 class="common-form-title">Registrarse</h1>
+        <form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm.value)" class="common-form">
+            <label for="name">Nombre</label>
+            <input class="form-input" type="text" placeholder="Nombre" name="name" id="name" ngModel>
+            <label for="email">E-mail</label>
+            <input class="form-input" type="email" placeholder="Ingrese su email" name="email" id="email" ngModel>
+            <label for="pass">Contraseña</label>
+            <input class="form-input" type="password" placeholder="Ingrese su contraseña" name="pass" id="pass" ngModel>
+            <p>Ya estas registrado? <a routerLink="/login">Inicia sesion aqui!</a></p>
+            <button class="form-button">Registrarme</button>
+        </form>
+    </div>
+</div>

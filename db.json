@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "name": "Julieta Tacconi",
+      "email": "juli@gmail.com",
+      "pass": "123456",
+      "id": 1
+    },
+    {
+      "name": "Juana Perez",
+      "email": "juana@gmail.com",
+      "pass": "123456",
+      "id": 2
+    },
+    {
+      "name": "Sergio perez",
+      "email": "sergio@gmail.com",
+      "pass": "123456",
+      "id": 3
+    },
+    {
+      "name": "Juan Rodriguez",
+      "email": "juan@gmail.com",
+      "pass": "123456",
+      "id": 4
+    },
+    {
+      "name": "Juan Rodriguez",
+      "email": "juan@gmail.com",
+      "pass": "123456",
+      "id": 5
+    },
+    {
+      "name": "maria suarez",
+      "email": "maria@gmail.com",
+      "pass": "123456",
+      "id": 6
+    },
+    {
+      "name": "Martha Juarez",
+      "email": "marta@gmail.com",
+      "pass": "123456",
+      "id": 7
+    },
+    {
+      "name": "Helena Troya",
+      "email": "helena@gmail.com",
+      "pass": "123456",
+      "id": 8
+    },
+    {
+      "name": "Samantha Perez",
+      "email": "sami@gmail.com",
+      "pass": "123456",
+      "id": 9
+    },
+    {
+      "name": "Mariano Carreira",
+      "email": "marian@gmail.com",
+      "pass": "123456",
+      "id": 10
+    },
+    {
+      "name": "Lucas",
+      "email": "lucapo@gmail.com",
+      "pass": "123456",
+      "id": 11
+    },
+    {
+      "name": "jazmin",
+      "email": "jaz@gmail.com",
+      "pass": "123456",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "name": "Living alone",
+      "price": "1500",
+      "category": "drama",
+      "description": "blablablabla",
+      "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/a4/78/a84d5f69a275e6cac0f00639a165d1aa.jpg",
+      "id": 1
+    },
+    {
+      "name": "El principito",
+      "price": "3000",
+      "category": "infantiles",
+      "description": "El principito es una narración corta del escritor francés Antoine de Saint-Exupéry. La historia se centra en un pequeño príncipe que realiza una travesía por el universo. En este viaje descubre la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.",
+      "image": "https://www.papelerabariloche.com.ar/img/p/064735/1.jpeg?quality=95&width=800&height=800&mode=max&upscale=false",
+      "id": 2
+    },
+    {
+      "name": "It",
+      "price": "6000",
+      "category": "terror",
+      "description": "Tras veintisiete años de tranquilidad y lejanía una antigua promesa infantil les hace volver al lugar en el que vivieron su infancia y juventud como una terrible pesadilla. Regresan a Derry para enfrentarse con su pasado y enterrar definitivamente la amenaza que los amargó durante su niñez. Saben que pueden morir, pero son conscientes de que no conocerán la paz hasta que aquella cosa sea destruida para siempre. It es una de las novelas más ambiciosas de Stephen King, donde ha logrado perfeccionar de un modo muy personal las claves del género de terror.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1603994785-41MnBgdydDL.jpg",
+      "id": 3
+    },
+    {
+      "name": "Harry Potter y la Piedra Filosofal",
+      "price": "5500",
+      "category": "infantiles",
+      "description": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+      "image": "https://img.remediosdigitales.com/821dec/91r1aixeill/450_1000.jpg",
+      "id": 4
+    },
+    {
+      "name": "El codigo Da Vinci",
+      "price": "4000",
+      "category": "suspenso",
+      "description": "Un asesinato en el Museo del Louvre y pistas en las pinturas de Leonardo da Vinci conducen al descubrimiento de un misterio religioso que podría estremecer las bases del cristianismo.",
+      "image": "https://assets.afcdn.com/story/20160223/867657_w1333h2000cx663cy1006.jpg",
+      "id": 5
+    },
+    {
+      "name": "Los juegos del hambre",
+      "price": "6000",
+      "category": "infantiles/adolescentes",
+      "description": "Para demostrar su poder, el régimen del estado totalitario de Panem organiza cada año Los juegos del hambre. En ellos, 24 jóvenes compiten el uno contra el otro en una batalla en la que solo puede haber un superviviente. La joven Katniss se ofrece voluntaria para participar en los juegos para salvar a su hermana. Junto a ella participará Peeta, un joven al que ha conocido desde la infancia y que está enamorado de ella. Sin embargo, el Capitolio quiere convertirlos en contrincantes.",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/los-juegos-del-hambre-1635110873.jpeg",
+      "id": 6
+    },
+    {
+      "name": "Alicia en el pais de las maravillas",
+      "price": "3500",
+      "category": "infantiles/adolescentes",
+      "description": "La historia cuenta cómo una niña llamada Alicia cae por un agujero, encontrándose en un mundo peculiar y extraño, poblado por humanos y criaturas antropomórficas. El libro juega con la lógica, dando a la novela gran popularidad tanto en niños como en adultos.",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fZS53GPDL.jpg",
+      "id": 7
+    },
+    {
+      "name": "Cumbres borrascosas",
+      "price": "2500",
+      "category": "Clasicos imperdibles",
+      "description": "Una trágica historia de pasiones encontradas en la Inglaterra rural más conservadora. Se inicia con Catherine, la hija de una familia distinguida, y Heatcliff, un campesino adoptado por esa familia, que pasan de ser compañeros de juegos en la infancia a enamorarse. Las secuelas de ese amor imposible -lo impiden las normas sociales de la época- afectarán a sus protagonistas y también a sus descendientes a lo largo de varias generaciones. Cumbres borrascosas hipnotiza y envuelve en una maraña de pasiones, odio, sed de venganza, amor no correspondido, desengaño, desesperanza... Los personajes giran en torno a un hogar que deja de serlo a voluntad y capricho de Heatcliff, un hombre imponente, de fuerte carácter y movido por la ira y el rencor hacia la familia que, aunque lo acogió, nunca lo consideró más que un niño abandonado recogido de las calles de la ciudad. El niño despreciado creció para odiar más que nadie. El señor Earnshaw nunca imaginó que aquél niño de grandes ojos, a quien brindó su casa, terminaría siendo el amo y señor de ésta y todos sus habitantes, engendrando un ambiente de miedo y violencia. La novela no sólo posee un increíble estilo descriptivo que introduce al lector en el drama desarrollado en una antigua casa de campo; sino que también brinda un excelente análisis de la naturaleza humana, sus errores, defectos y sentimientos.",
+      "image": "https://media.revistagq.com/photos/5e78e4e59da1570008d6047c/master/w_1000,h_1524,c_limit/mejores-libros-12.jpg",
+      "id": 8
+    },
+    {
+      "name": "Viaje al centro de la tierra",
+      "price": "3450",
+      "category": "Clasicos imperdibles",
+      "description": ". El joven Axel y su tío, el profesor Otto, emprenden un viaje fantástico al interior de la Tierra. Y todo ello a partir del descubrimiento de unos signos misteriosos hallados entre las páginas de un libro antiguo.",
+      "image": "https://i2.wp.com/fce.com.co/wp-content/uploads/2022/03/842060511.jpg?fit=416%2C622&ssl=1",
+      "id": 9
+    },
+    {
+      "name": "Las mil y una noches",
+      "price": "4000",
+      "category": "Ficcion historica",
+      "description": "Las mil y una noches es una de las obras más importantes e influyentes de la literatura universal. En ellos, el rey Schahriar, luego de ser traicionado por su esposa, decide vengar esa infidelidad casándose cada día con una joven virgen que es ejecutada a la mañana siguiente para evitar así cualquier otra deslealtad.",
+      "image": "https://media.revistagq.com/photos/6040d0f7fd84f6725ca725e5/master/w_2000,h_3080,c_limit/9789504944171.jpg",
+      "id": 10
+    }
+  ],
+  "cart": [
+    {
+      "name": "Living alone",
+      "price": "1500",
+      "category": "drama",
+      "description": "blablablabla",
+      "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/a4/78/a84d5f69a275e6cac0f00639a165d1aa.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 12,
+      "id": 1
+    },
+    {
+      "name": "El principito",
+      "price": "3000",
+      "category": "infantiles",
+      "description": "El principito es una narración corta del escritor francés Antoine de Saint-Exupéry. La historia se centra en un pequeño príncipe que realiza una travesía por el universo. En este viaje descubre la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.",
+      "image": "https://www.papelerabariloche.com.ar/img/p/064735/1.jpeg?quality=95&width=800&height=800&mode=max&upscale=false",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 12,
+      "id": 2
+    },
+    {
+      "name": "Living alone",
+      "price": "1500",
+      "category": "drama",
+      "description": "blablablabla",
+      "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/a4/78/a84d5f69a275e6cac0f00639a165d1aa.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "Harry Potter y la Piedra Filosofal",
+      "price": "5500",
+      "category": "infantiles",
+      "description": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+      "image": "https://img.remediosdigitales.com/821dec/91r1aixeill/450_1000.jpg",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 4
+    }
+  ]
+}

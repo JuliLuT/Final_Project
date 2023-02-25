@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "dosis", "san-serif";
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.common-form-title{
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    color: #4d694c;
+    margin-top: 5vh;
+}
+.common-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 6vh;
+
+}
+.form-input{
+height: 30px;
+padding: 8px;
+width: 75%;
+margin: 8px;
+border: none;
+border-radius: 6px;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #658864;
+   
+}
+.form-input::placeholder{
+    color:#789f76
+}
+
+.form-button{
+height: 60px;
+width: 50%;
+padding: 12px;
+margin: 10px;
+border: none;
+border-radius: 30%;
+background-color: #eeeece;
+color:#658864;
+cursor: pointer;
+transition: all 0.5s;
+margin-top: 8vh;
+font-weight: bold;
+font-size: 16px;
+}
+.form-button:hover{
+    background-color: #7a9f78;
+    color: #eeeece;
+}
+.carousel-caption{
+    background-color:#789f76;
+    border-radius: 12px;
+    color: #fffcfc;
+    font-weight: bold;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color:#4d694c;
+    border-radius: 6px;
+    color: #fffcfc;
+}

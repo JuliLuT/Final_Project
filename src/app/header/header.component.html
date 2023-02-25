@@ -1,0 +1,26 @@
+<nav class="nav">
+    <h1 class="title"> <a routerLink="">DM</a></h1>
+    <div class="nav-search">
+        <input type="text"
+        #searchInput
+         (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Busque un producto" />
+        <button (click)="submitSearch(searchInput.value)" >Conseguir!</button>
+        <ul class="suggested-search" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult" ><a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a> </li>
+        </ul>
+    </div>
+
+    <div [ngSwitch]="menuType">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="">Inicio</a></li>
+            <li><a routerLink="login">Mi cuenta</a></li>
+            <li><a routerLink="cart">Carrito ({{cartItems}})</a></li>
+        </ul>
+        <ul *ngSwitchCase="'user'">
+            <li><a routerLink="">{{userName | titlecase}} </a></li>
+            <li><a (click)="logOut()">Logout</a></li>
+            <li><a routerLink="cart">Carrito ({{cartItems}})</a></li>
+            
+        </ul>
+    </div>
+</nav>

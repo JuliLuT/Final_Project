@@ -1,0 +1,38 @@
+<div class="login-auth">
+    <div class="log-in">
+        <h1 class="common-form-title">Inicio de sesion</h1>
+        <p class="authError"> {{authError}} </p>
+        <form #loginForm="ngForm" (ngSubmit)="logIn(loginForm.value)" class="common-form">
+            
+            <label for="email">Email</label>
+            <input 
+            class="form-input"
+             type="email" 
+             placeholder="Ingrese su mail"
+              name="email"
+               id="email" 
+               ngModel
+               #email="ngModel"
+               required
+               />
+               <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Por favor ingrese un email valido</span></p>
+            <label for="password">Contraseña</label>
+
+            <input 
+            class="form-input"
+            type="password" 
+            placeholder="Ingrese su contraseña" 
+            name="password" 
+            id="password" 
+            ngModel
+            minlength="6"
+            maxlength="24"
+            #password="ngModel"
+            required
+            />
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Contraseña incorrecta</span></p>
+            <p>No estas registrado? <a routerLink="/registro">Registrate aqui!</a></p>
+            <button [disabled]="loginForm.invalid" class="form-button">Iniciar sesion</button>
+        </form>
+    </div>
+</div>
