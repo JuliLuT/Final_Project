@@ -62,7 +62,7 @@ font-size: 16px;
     border:1px solid #4d694c;
     color: #4d694c;
 }
-.details .normalButton{
+.normalButton{
     background-color: #4d694c;
     padding:2px 12px;
     margin: 2px;
@@ -71,7 +71,7 @@ font-size: 16px;
     color: #EEEECE;
     transition: all 0.6s;
 }
-.details .normalButton:hover{
+.normalButton:hover{
     background-color: white;
     border:1px solid #4d694c;
     color: #4d694c;

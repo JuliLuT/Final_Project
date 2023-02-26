@@ -20,7 +20,7 @@ export class LoginAuthService {
         if (result && result.body && result.body.length === 1) {
           this.isLoginError.emit(false);
           localStorage.setItem('user', JSON.stringify(result.body))
-          this.router.navigate(['userHome'])
+          this.router.navigate(['/'])
         }
         else {
           this.isLoginError.emit(true);

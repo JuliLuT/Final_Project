@@ -164,19 +164,30 @@
       "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/a4/78/a84d5f69a275e6cac0f00639a165d1aa.jpg",
       "quantity": 1,
       "productId": 1,
-      "userId": 12,
+      "userId": null,
       "id": 1
     },
     {
-      "name": "El principito",
-      "price": "3000",
+      "name": "Harry Potter y la Piedra Filosofal",
+      "price": "5500",
       "category": "infantiles",
-      "description": "El principito es una narración corta del escritor francés Antoine de Saint-Exupéry. La historia se centra en un pequeño príncipe que realiza una travesía por el universo. En este viaje descubre la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.",
-      "image": "https://www.papelerabariloche.com.ar/img/p/064735/1.jpeg?quality=95&width=800&height=800&mode=max&upscale=false",
-      "quantity": 1,
-      "productId": 2,
-      "userId": 12,
+      "description": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+      "image": "https://img.remediosdigitales.com/821dec/91r1aixeill/450_1000.jpg",
+      "quantity": 2,
+      "productId": 4,
+      "userId": null,
       "id": 2
+    },
+    {
+      "name": "El codigo Da Vinci",
+      "price": "4000",
+      "category": "suspenso",
+      "description": "Un asesinato en el Museo del Louvre y pistas en las pinturas de Leonardo da Vinci conducen al descubrimiento de un misterio religioso que podría estremecer las bases del cristianismo.",
+      "image": "https://assets.afcdn.com/story/20160223/867657_w1333h2000cx663cy1006.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": null,
+      "id": 3
     }
   ]
 }

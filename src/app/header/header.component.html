@@ -14,12 +14,12 @@
         <ul *ngSwitchCase="'default'">
             <li><a routerLink="">Inicio</a></li>
             <li><a routerLink="login">Mi cuenta</a></li>
-            <li><a routerLink="cart">Carrito ({{cartItems}})</a></li>
+            <li><a [routerLink]="cartItems>0?'cart':null">Carrito ({{cartItems}})</a></li>
         </ul>
         <ul *ngSwitchCase="'user'">
             <li><a routerLink="">{{userName | titlecase}} </a></li>
             <li><a (click)="logOut()">Logout</a></li>
-            <li><a routerLink="cart">Carrito ({{cartItems}})</a></li>
+            <li><a [routerLink]="cartItems>0?'cart':null">Carrito ({{cartItems}})</a></li>
             
         </ul>
     </div>

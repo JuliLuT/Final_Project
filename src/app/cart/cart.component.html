@@ -16,7 +16,7 @@
         <span>Cant: {{cart.quantity}}</span>
     </li>
     <li>
-        <button class="normalButton">Eliminar</button>
+        <button class="normalButton" (click)="removeToCart(cart.id)">Eliminar</button>
     </li>
     
 </ul>
@@ -26,6 +26,7 @@
 <ul>
     <li> <span>Subtotal</span> <span>$ {{priceSummary.price}} </span></li>
     <li><span><h4>Total</h4></span> <span><h4>$ {{priceSummary.total}} </h4></span></li>
+    <li><button class="normalButton">Pagar</button></li>
 </ul>
         </div>
     </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { cart, priceSummary } from '../data_type';
 import { ProductsService } from '../services/products.service';
 
@@ -13,10 +14,18 @@ export class CartComponent implements OnInit {
     price: 0,
     total: 0
   }
-  constructor(private product: ProductsService) {
+  constructor(private product: ProductsService, private router:Router) {
 
   }
   ngOnInit(): void {
+   this.loadDetails()
+  }
+  removeToCart(cartId:number|undefined){
+    cartId&&this.cartData && this.product.removeTocart(cartId).subscribe((result) => {
+      this.loadDetails();
+    })
+  }
+  loadDetails(){
     this.product.currentCart().subscribe((result) => {
       this.cartData = result;
       console.log(this.cartData);
@@ -28,7 +37,9 @@ export class CartComponent implements OnInit {
       })
       this.priceSummary.price=price;
       this.priceSummary.total=price;
-      console.log(this.priceSummary)
+      if(!this.cartData.length){
+        this.router.navigate(['/'])
+      }
     })
   }
 
