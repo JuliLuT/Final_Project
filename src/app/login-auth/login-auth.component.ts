@@ -10,7 +10,7 @@ import { ProductsService } from '../services/products.service';
 })
 export class LoginAuthComponent implements OnInit {
   authError: string = '';
-  constructor(private login: LoginAuthService, private product:ProductsService) { }
+  constructor(private login: LoginAuthService, private product: ProductsService) { }
   ngOnInit(): void {
     this.login.reloadUser();
   }
@@ -22,9 +22,38 @@ export class LoginAuthComponent implements OnInit {
         this.authError = 'El email o la contraseña son incorrectos'
       }
       else {
-        
+        this.LocalCartToRemoteCart();
       }
     })
   }
-  
+  LocalCartToRemoteCart() {
+    let data = localStorage.getItem('localCart');
+    let user = JSON.parse(localStorage.getItem('user')!)
+    let userId = user && (user[0]).id;
+    if (data) {
+      let cartDataList: product[] = JSON.parse(data);
+      console.warn(userId)
+      cartDataList.forEach((product: product, index) => {
+        let cartData: cart = {
+          ...product,
+          productId: product.id,
+          userId
+        }
+        delete cartData.id;
+        setTimeout(() => {
+          this.product.addToCart(cartData).subscribe((result)=>{
+            if(result){
+              console.warn("añadiddaaaaa")
+            }
+          })
+        }, 500);
+        if(cartDataList.length===index+1){
+          localStorage.removeItem('localCart')
+        }
+      })
+    }
+    setTimeout(() => {
+      this.product.getCartList(userId)
+    }, 2000);
+  }
 }

@@ -177,28 +177,6 @@
       "productId": 2,
       "userId": 12,
       "id": 2
-    },
-    {
-      "name": "Living alone",
-      "price": "1500",
-      "category": "drama",
-      "description": "blablablabla",
-      "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/a4/78/a84d5f69a275e6cac0f00639a165d1aa.jpg",
-      "quantity": 1,
-      "productId": 1,
-      "userId": null,
-      "id": 3
-    },
-    {
-      "name": "Harry Potter y la Piedra Filosofal",
-      "price": "5500",
-      "category": "infantiles",
-      "description": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
-      "image": "https://img.remediosdigitales.com/821dec/91r1aixeill/450_1000.jpg",
-      "quantity": 1,
-      "productId": 4,
-      "userId": null,
-      "id": 4
     }
   ]
 }

@@ -27,6 +27,7 @@ export class ProductsService {
     let localCart = localStorage.getItem('localCart');
     if (!localCart) {
       localStorage.setItem('localCart', JSON.stringify([data]));
+      this.cartData.emit([data]);
     } else {
       cartData = JSON.parse(localCart);
       cartData.push(data);
@@ -55,5 +56,13 @@ export class ProductsService {
       })
 
 
+  }
+  removeTocart(cartId:number){
+return this.http.delete('http://localhost:3000/cart/'+cartId);
+  }
+  currentCart(){
+    let userPage = localStorage.getItem('user');
+    let userData = userPage && JSON.parse(userPage)[0];
+    return this.http.get<cart[]>('http://localhost:3000/cart?userId='+userData.id)
   }
 }

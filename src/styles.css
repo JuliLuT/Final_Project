@@ -58,8 +58,23 @@ font-weight: bold;
 font-size: 16px;
 }
 .form-button:hover{
-    background-color: #7a9f78;
-    color: #eeeece;
+    background-color: white;
+    border:1px solid #4d694c;
+    color: #4d694c;
+}
+.details .normalButton{
+    background-color: #4d694c;
+    padding:2px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    color: #EEEECE;
+    transition: all 0.6s;
+}
+.details .normalButton:hover{
+    background-color: white;
+    border:1px solid #4d694c;
+    color: #4d694c;
 }
 .carousel-caption{
     background-color:#789f76;

@@ -10,16 +10,17 @@ export interface logIn{
 }
 export interface product{
     name:string,
-    price:string,
+    price:number,
     category:string,
     description:string,
     image:string,
     id:number,
-    quantity:undefined|number
+    quantity:undefined|number,
+    productId:undefined|number
 }
 export interface cart{
     name:string,
-    price:string,
+    price:number,
     category:string,
     description:string,
     image:string,
@@ -27,4 +28,8 @@ export interface cart{
     quantity:undefined|number,
     productId:number,
     userId:number
+}
+export interface priceSummary{
+    price:number,
+    total:number
 }

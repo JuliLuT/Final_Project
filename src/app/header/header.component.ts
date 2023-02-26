@@ -20,10 +20,14 @@ export class HeaderComponent implements OnInit {
           let userPage = localStorage.getItem('user');
           let userData = userPage && JSON.parse(userPage)[0];
           this.userName = userData.name
-          this.menuType = 'user'
+          this.menuType = 'user';
+          this.product.getCartList(userData.id);
         }
         else {
+          let userPage = localStorage.getItem('user');
+          let userData = userPage && JSON.parse(userPage)[0];
           this.menuType = 'default'
+          this.product.getCartList(userData.id);
         }
       }
     });
@@ -38,6 +42,7 @@ export class HeaderComponent implements OnInit {
   logOut() {
     localStorage.removeItem('user');
     this.router.navigate(['/']);
+    this.product.cartData.emit([]);
   }
   searchProduct(query: KeyboardEvent) {
     if (query) {
